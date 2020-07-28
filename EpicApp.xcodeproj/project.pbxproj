@@ -15,6 +15,7 @@
 		DA085E8C23D104AE00B5675B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA085E8A23D104AE00B5675B /* LaunchScreen.storyboard */; };
 		DA085E9723D104AE00B5675B /* EpicAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA085E9623D104AE00B5675B /* EpicAppTests.swift */; };
 		DA085EA223D104AE00B5675B /* EpicAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA085EA123D104AE00B5675B /* EpicAppUITests.swift */; };
+		DA24744E23D28C740013D5BD /* chatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA24744D23D28C740013D5BD /* chatView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		DA085E9D23D104AE00B5675B /* EpicAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EpicAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA085EA123D104AE00B5675B /* EpicAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpicAppUITests.swift; sourceTree = "<group>"; };
 		DA085EA323D104AE00B5675B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA24744D23D28C740013D5BD /* chatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				DA085E8123D1048500B5675B /* SceneDelegate.swift */,
 				DA085E8323D1048500B5675B /* ContentView.swift */,
 				DA085E8523D104AE00B5675B /* Assets.xcassets */,
+				DA24744D23D28C740013D5BD /* chatView.swift */,
 				DA085E8A23D104AE00B5675B /* LaunchScreen.storyboard */,
 				DA085E8D23D104AE00B5675B /* Info.plist */,
 				DA085E8723D104AE00B5675B /* Preview Content */,
@@ -267,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA24744E23D28C740013D5BD /* chatView.swift in Sources */,
 				DA085E8023D1048500B5675B /* AppDelegate.swift in Sources */,
 				DA085E8223D1048500B5675B /* SceneDelegate.swift in Sources */,
 				DA085E8423D1048500B5675B /* ContentView.swift in Sources */,
@@ -436,7 +440,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"EpicApp/Preview Content\"";
-				DEVELOPMENT_TEAM = 524ZVN5P7L;
+				DEVELOPMENT_TEAM = 87STLRM2UK;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = EpicApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -456,7 +460,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"EpicApp/Preview Content\"";
-				DEVELOPMENT_TEAM = 524ZVN5P7L;
+				DEVELOPMENT_TEAM = 87STLRM2UK;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = EpicApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
